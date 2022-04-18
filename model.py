@@ -1,6 +1,21 @@
 from enum import Enum
 from pydantic import BaseModel, Field
 
+# data = {
+#     "name": "Michael Kennedy",
+#     "age": "28",
+#     "location": {
+#         "city": "Portland",
+#         "state": "Oregon",
+#     },
+#     "bike": "Ktm Duke",
+#     "rides": [7, 103, 22, "70", 100]
+# }
+# class User:
+#     name: str
+#     location = None
+#     bike: str
+#     rides: list[int]= []
 
 
 
@@ -17,4 +32,4 @@ class MainModel(BaseModel):
     class Config:
         title = 'Main'
 
-# this is equivalent to json.dumps(MainModel.schema(), indent=2):
+
