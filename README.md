@@ -11,7 +11,7 @@ Not so basic not too advance POC
 
 This section is for python OOP learning and it's outcome :
 
-### Class (1)
+### Pyhton Class 
 A class is a blueprint for the object.
 
 We can think of class as a sketch of a user with labels.
@@ -71,7 +71,7 @@ in this code block use Dunder Method like this ```name.__len__()```
 
 This section is for python Pydantic(library) learning, and it's outcome:
 
-In Class(1) we have learned about what is class and a little dig down.
+In Python Class we have learned about what is class and a little dig down.
 Now a question in mind may appear that why we will use pydantic library for more optimization .
 Let have a look in why pydantic folder . There is three file{example-class, example-dataclass, example-pydantic-class},
 those are example for this section.
